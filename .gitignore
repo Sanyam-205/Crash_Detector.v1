@@ -1,0 +1,32 @@
+*.iml
+.gradle
+/build
+/local.properties
+/.idea/caches
+/.idea/libraries
+/.idea/modules.xml
+/.idea/workspace.xml
+/.idea/navEditor.xml
+/.idea/assetWizardSettings.xml
+.DS_Store
+/build
+/captures
+.externalNativeBuild
+.cxx
+local.properties
+
+
+
+# ==========================================
+# Arduino Sketch Rules
+# ==========================================
+# Blocks the temporary build folders Arduino creates during compilation
+arduino-sketch-folder/build/
+arduino-sketch-folder/.build/
+
+# Blocks pre-compiled binaries and temporary cache files
+arduino-sketch-folder/*.hex
+arduino-sketch-folder/*.elf
+arduino-sketch-folder/*.bin
+arduino-sketch-folder/*.tmp
+
